@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+<<<<<<< HEAD
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Column
@@ -39,6 +40,16 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+=======
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+>>>>>>> f62efa49d8ab0e0e99d172c45396763d28ea458a
 import com.quyduoi.lab5_md18309_ph41939.ui.theme.Lab5_MD18309_PH41939Theme
 
 class Bai3_Lab5 : ComponentActivity() {
@@ -50,7 +61,11 @@ class Bai3_Lab5 : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
+<<<<<<< HEAD
                     CategoryApp()
+=======
+                    KhungBai3()
+>>>>>>> f62efa49d8ab0e0e99d172c45396763d28ea458a
                 }
             }
         }
@@ -59,6 +74,7 @@ class Bai3_Lab5 : ComponentActivity() {
 
 @Preview
 @Composable
+<<<<<<< HEAD
 fun CategoryApp() {
     val categories = listOf(
         "Fiction", "Mystery", "Science Fiction",
@@ -204,4 +220,8 @@ fun SelectedCategoriesChips(
             )
         }
     }
+=======
+fun KhungBai3() {
+
+>>>>>>> f62efa49d8ab0e0e99d172c45396763d28ea458a
 }

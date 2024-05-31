@@ -3,6 +3,7 @@ package com.quyduoi.lab5_md18309_ph41939
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+<<<<<<< HEAD
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -25,6 +26,18 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+=======
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+>>>>>>> f62efa49d8ab0e0e99d172c45396763d28ea458a
 import com.quyduoi.lab5_md18309_ph41939.ui.theme.Lab5_MD18309_PH41939Theme
 
 class Bai2_Lab5 : ComponentActivity() {
@@ -36,7 +49,11 @@ class Bai2_Lab5 : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
+<<<<<<< HEAD
                     LightSwitch()
+=======
+                    KhungBai2()
+>>>>>>> f62efa49d8ab0e0e99d172c45396763d28ea458a
                 }
             }
         }
@@ -45,6 +62,7 @@ class Bai2_Lab5 : ComponentActivity() {
 
 @Preview
 @Composable
+<<<<<<< HEAD
 fun LightSwitch() {
     Column(
         modifier = Modifier
@@ -85,4 +103,8 @@ fun LightSwitch() {
             )
         )
     }
+=======
+fun KhungBai2() {
+
+>>>>>>> f62efa49d8ab0e0e99d172c45396763d28ea458a
 }

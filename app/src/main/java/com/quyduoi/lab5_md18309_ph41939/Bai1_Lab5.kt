@@ -16,7 +16,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+<<<<<<< HEAD
 import androidx.compose.foundation.layout.width
+=======
+>>>>>>> f62efa49d8ab0e0e99d172c45396763d28ea458a
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Button
@@ -128,8 +131,11 @@ fun KhungBai1() {
                     onClick = {
                         if (username.isNotEmpty() && password.isNotEmpty()) {
                             handleRememberMe(context, rememberMe, username, password)
+<<<<<<< HEAD
                             dialogMessage = "Login successful"
                             showDialog = true
+=======
+>>>>>>> f62efa49d8ab0e0e99d172c45396763d28ea458a
                         } else {
                             Toast.makeText(context, "Please enter username and password", Toast.LENGTH_SHORT).show()
                         }
@@ -158,7 +164,11 @@ fun DialogComponent(
             elevation = CardDefaults.cardElevation(defaultElevation = 10.dp)
         ) {
             Column(
+<<<<<<< HEAD
                 modifier = Modifier.padding(16.dp).width(250.dp),
+=======
+                modifier = Modifier.padding(16.dp),
+>>>>>>> f62efa49d8ab0e0e99d172c45396763d28ea458a
                 horizontalAlignment = Alignment.Start,
             ) {
                 Text(dialogTitle, style = MaterialTheme.typography.titleLarge)
